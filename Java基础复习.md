@@ -541,7 +541,7 @@ i4=i5+i6   true
 
 > **example 1**
 
-```
+```java
 public static void main(String[] args) {
     int num1 = 10;
     int num2 = 20;
@@ -564,7 +564,7 @@ public static void swap(int a, int b) {
 
 **结果：**
 
-```
+```java
 a = 20
 b = 10
 num1 = 10
@@ -581,7 +581,7 @@ num2 = 20
 
 > **example 2**
 
-```
+```java
 	public static void main(String[] args) {
 		int[] arr = { 1, 2, 3, 4, 5 };
 		System.out.println(arr[0]);
@@ -614,7 +614,7 @@ array 被初始化 arr 的拷贝也就是一个对象的引用，也就是说 ar
 
 > **example 3**
 
-```
+```java
 public class Test {
 
 	public static void main(String[] args) {
@@ -719,7 +719,7 @@ Java 程序设计语言对对象采用的不是引用调用，实际上，对象
 
 1、无参数无返回值的方法
 
-```
+```java
 // 无参数无返回值的方法(如果方法没有返回值，不能不写，必须写void，表示没有返回值)
 public void f1() {
     System.out.println("无参数无返回值的方法");
@@ -728,7 +728,7 @@ public void f1() {
 
 2、有参数无返回值的方法
 
-```
+```java
 /**
 * 有参数无返回值的方法
 * 参数列表由零组到多组“参数类型+形参名”组合而成，多组参数之间以英文逗号（,）隔开，形参类型和形参名之间以英文空格隔开
@@ -740,7 +740,7 @@ public void f2(int a, String b, int c) {
 
 3、有返回值无参数的方法
 
-```
+```java
 // 有返回值无参数的方法（返回值可以是任意的类型,在函数里面必须有return关键字返回对应的类型）
 public int f3() {
     System.out.println("有返回值无参数的方法");
@@ -750,7 +750,7 @@ public int f3() {
 
 4、有返回值有参数的方法
 
-```
+```java
 // 有返回值有参数的方法
 public int f4(int a, int b) {
     return a * b;
@@ -759,7 +759,7 @@ public int f4(int a, int b) {
 
 5、return 在无返回值方法的特殊使用
 
-```
+```java
 // return在无返回值方法的特殊使用
 public void f5(int a) {
     if (a>10) {
